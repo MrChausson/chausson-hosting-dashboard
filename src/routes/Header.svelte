@@ -1,13 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	import logo from '$lib/images/hosting-logo.jpg';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://hosting.chausson.ovh">
+			<img src={logo} alt="Chausson Hosting" />
 		</a>
 	</div>
 
@@ -17,7 +16,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">Dashboard</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
@@ -32,9 +31,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
+		<p> Login or Logout</p>
 	</div>
 </header>
 
@@ -45,7 +42,7 @@
 	}
 
 	.corner {
-		width: 3em;
+		width: 8em;
 		height: 3em;
 	}
 

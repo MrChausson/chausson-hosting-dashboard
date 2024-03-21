@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Go back to <a href="https://hosting.chausson.ovh">Chausson Hosting</a></p>
 	</footer>
 </div>
 
